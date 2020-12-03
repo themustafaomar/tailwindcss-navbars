@@ -1,0 +1,26 @@
+{
+  "name": "tailwindcss-navbars",
+  "version": "1.0.0-alpha.1",
+  "description": "A collection of navigation bars for awesome Tailwindcss",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "keywords": [
+    "Tailwindcss",
+    "Navigations",
+    "Navbar",
+    "Navigation bars"
+  ],
+  "author": "Mustafa Omar",
+  "license": "MIT",
+  "devDependencies": {
+    "postcss": "^8.1.10"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.0.4",
+    "clean-css": "^4.2.3",
+    "lodash": "^4.17.20",
+    "tailwindcss": "^2.0.1"
+  }
+}
