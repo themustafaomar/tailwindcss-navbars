@@ -6,6 +6,7 @@
   "scripts": {
     "build": "node scripts/build.js"
   },
+  "files": ["dist", "scripts", "src", "LICENSE"],
   "keywords": [
     "Tailwindcss",
     "Navigations",
@@ -15,11 +16,11 @@
   "author": "Mustafa Omar",
   "license": "MIT",
   "devDependencies": {
-    "postcss": "^8.1.10"
+    "postcss": "^8.1.10",
+    "clean-css": "^4.2.3",
+    "autoprefixer": "^10.0.4"
   },
   "dependencies": {
-    "autoprefixer": "^10.0.4",
-    "clean-css": "^4.2.3",
     "lodash": "^4.17.20",
     "tailwindcss": "^2.0.1"
   }
